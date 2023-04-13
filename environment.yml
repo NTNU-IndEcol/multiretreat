@@ -1,0 +1,22 @@
+name: multiretreat
+channels: 
+    - conda-forge
+dependencies: 
+    - python >= 3.10
+    - pandas >= 1.5
+    - ipython >= 8.1
+    - matplotlib >= 3.7
+  # monitoring
+    - glances >= 3.3.1.1
+    - hyperfine >= 1.16
+  # benchmarking
+    - pyinstrument >= 4.0.0
+    - py-spy >= 0.3
+    - memray >= 1.7.0
+    - memory_profiler >= 0.60
+  # multiprocessing
+    - ray-default >= 2.3.0
+  # Optional
+    - black >= 22.3.0
+  # admin
+    - mamba >= 1.4
